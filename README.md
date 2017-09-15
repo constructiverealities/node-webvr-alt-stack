@@ -20,7 +20,14 @@ If you don't already use your Vive with linux, you will need to [set up device p
     git clone https://github.com/mncharity/node-webvr-alt-stack
     cd node-webvr-alt-stack
 
+### Dependencies
+You will need to have [node-gyp](https://github.com/nodejs/node-gyp) installed, see page for detailed installation instructions.
+
+**tl;dr**  ```sudo npm install -g node-gyp```
+
 ### Build
+
+Depending on how your system is setup, on *nix system you may have to run the following commands with *sudo* to run them successfully.
 
 Prepare the mono repo,
 
